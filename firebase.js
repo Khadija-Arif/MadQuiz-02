@@ -5,13 +5,13 @@ import { initializeAuth, browserLocalPersistence } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDQa43QukLrFMqbX0iiLWZbnozchjBz8Oo",
-  authDomain: "firstpro-c93e8.firebaseapp.com",
-  projectId: "firstpro-c93e8",
-  storageBucket: "firstpro-c93e8.appspot.com",
-  messagingSenderId: "984624672033",
-  appId: "1:984624672033:web:d66b70d67a04cb4370a260",
-  measurementId: "G-VHB9Z36FSW"
+ apiKey: "your-api-key",
+  authDomain: "your-auth-domain",
+  projectId: "your-project-id",
+  storageBucket: "your-storage-bucket",
+  messagingSenderId: "your-messaging-sender-id",
+  appId: "your-app-id",
+  measurementId: "your-measurement-id",
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
