@@ -36,7 +36,7 @@ const SignUpScreen = () => {
   return (
     <View style={stylesSignInandUp.container}>
        <ImageBackground
-        source={require("../assets/aaa.jpeg")}
+        source={require("../assets/abcde.jpg")}
         style={stylesSignInandUp.backgroundImage}
       >
          <View style={stylesSignInandUp.formContainer}>
